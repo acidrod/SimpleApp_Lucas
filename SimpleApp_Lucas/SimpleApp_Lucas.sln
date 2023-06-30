@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_Lucas", "SimpleApp_Lucas.csproj", "{0A04AA45-3623-48EE-8C9E-B37980A2C193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp_Lucas.Models", "..\SimpleApp_Lucas.Models\SimpleApp_Lucas.Models.csproj", "{47E7767D-DF71-4D75-8782-425124E76960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A04AA45-3623-48EE-8C9E-B37980A2C193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A04AA45-3623-48EE-8C9E-B37980A2C193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A04AA45-3623-48EE-8C9E-B37980A2C193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A04AA45-3623-48EE-8C9E-B37980A2C193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E7767D-DF71-4D75-8782-425124E76960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E7767D-DF71-4D75-8782-425124E76960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E7767D-DF71-4D75-8782-425124E76960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E7767D-DF71-4D75-8782-425124E76960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39AD0CE5-5BD6-4BA2-AC17-911CF3669258}
+	EndGlobalSection
+EndGlobal
