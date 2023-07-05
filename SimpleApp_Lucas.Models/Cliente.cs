@@ -1,12 +1,15 @@
 ﻿namespace SimpleApp_Lucas.Models;
-
 public class Cliente
 {
-    public int Id { get; set; }
-
+    public Guid Id { get;} = Guid.NewGuid();
     public string Nombre { get; set; } = string.Empty;
+    public DateTime FechaNac { get; set; }
+    public IEnumerable<Auto> Autos { get; set; }
+    public Sexo sexo;
+}
 
-    public string ApellidoP { get; set; } = string.Empty;
-
-    public Cuenta Cuenta { get; set; } = new CuentaCorriente();
+public enum Sexo
+{
+    MASCULINO,
+    FEMENINO
 }
